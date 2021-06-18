@@ -11,7 +11,7 @@ def main():
     blt.setf(
         "window: size={}x{}, resizeable=true;", 
         screen_width, screen_height)
-    blt.setf("font: ../DroidSansMono.ttf, size=12")
+    blt.setf("font: DroidSansMono.ttf, size=12")
     blt.clear()
     blt.refresh()
     while True:
